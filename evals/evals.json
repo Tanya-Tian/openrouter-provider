@@ -1,0 +1,23 @@
+{
+  "skill_name": "openrouter-provider",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use openai/gpt-5-mini through OpenRouter and answer in one sentence: what is Cloudflare?",
+      "expected_output": "The skill should route directly to a chat model invocation using the exact model ID.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I want to use the Gemini banana image model on OpenRouter. Find the likely candidates and help me choose one.",
+      "expected_output": "The skill should search models first, summarize plausible candidates, and avoid silently guessing a model ID.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Generate an image with google/gemini-3.1-flash-image-preview through my Cloudflare AI Gateway endpoint.",
+      "expected_output": "The skill should honor the configured base URL, validate image output support, and route to the image script.",
+      "files": []
+    }
+  ]
+}

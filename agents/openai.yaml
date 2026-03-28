@@ -1,0 +1,7 @@
+interface:
+  display_name: "OpenRouter Provider"
+  short_description: "Discover, resolve, and call OpenRouter models for chat and image tasks."
+  default_prompt: "Use $openrouter-provider whenever the user wants to search OpenRouter models, choose between OpenRouter models, route requests through OpenRouter or Cloudflare AI Gateway, or invoke chat, image generation, or image editing through an OpenRouter-compatible endpoint."
+
+policy:
+  allow_implicit_invocation: true
