@@ -195,4 +195,4 @@ python3 /Users/ty123456/.codex/skills/skill-creator/scripts/quick_validate.py /p
 
 ## License
 
-Add your preferred license before wider distribution if needed.
+This repository is licensed under the MIT License. See [LICENSE](./LICENSE).
